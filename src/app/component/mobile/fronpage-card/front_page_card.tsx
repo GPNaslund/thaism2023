@@ -2,6 +2,7 @@ import Image from 'next/image'
 import localFont from 'next/font/local'
 import ButtonLarge from '../button_large/button_large'
 import React from 'react';
+import './frontpagecard.module.css'
 
 
 const kaushan_script = localFont({
@@ -53,36 +54,39 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
         >
           THAIBOXNING
         </h2>
-        <div className={`w-full z-10 -mt-40 grid grid-cols-4 gap-1 justify-items-center justify-center`} style={{ opacity: isExpanded ? 0 : 1, transition: 'opacity 0.5s' }}>
+        <div
+          className={`w-full z-10 -mt-40 grid grid-cols-4 gap-1 justify-items-center justify-center`}
+          style={{ opacity: isExpanded ? 0 : 1, transition: 'opacity 0.5s' }}
+        >
           <div className="w-full max-w-[50px]">
-            <Image src="/federation-logo.svg" alt="Kampsportstadion logo" layout="responsive" height={50} width={50} />
+            <img src="/federation-logo.svg" alt="Kampsportstadion logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/southside-white-logo.svg" alt="Southside logo" layout="responsive" height={100} width={100} />
+            <img src="/southside-white-logo.svg" alt="Southside logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/ks-logo.svg" alt="Swedish thaiboxing federation logo" layout="responsive" height={100} width={100} />
+            <img src="/ks-logo.svg" alt="Swedish thaiboxing federation logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[50px]">
-            <Image src="/logos/mocklogo-1-white.svg" alt="Kampsportstadion logo" layout="responsive" height={50} width={50} />
+            <img src="/logos/mocklogo-1-white.svg" alt="Kampsportstadion logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/logos/mocklogo-2-white.svg" alt="Southside logo" layout="responsive" height={100} width={100} />
+            <img src="/logos/mocklogo-2-white.svg" alt="Southside logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/logos/mocklogo-3-white.svg" alt="Swedish thaiboxing federation logo" layout="responsive" height={100} width={100} />
+            <img src="/logos/mocklogo-3-white.svg" alt="Swedish thaiboxing federation logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/logos/mocklogo-4-white.svg" alt="Kampsportstadion logo" layout="responsive" height={100} width={100} />
+            <img src="/logos/mocklogo-4-white.svg" alt="Kampsportstadion logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/logos/mocklogo-5-white.svg" alt="Southside logo" layout="responsive" height={100} width={100} />
+            <img src="/logos/mocklogo-5-white.svg" alt="Southside logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/logos/mocklogo-6-white.svg" alt="Swedish thaiboxing federation logo" layout="responsive" height={100} width={100} />
+            <img src="/logos/mocklogo-6-white.svg" alt="Swedish thaiboxing federation logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <Image src="/logos/mocklogo-7-white.svg" alt="Kampsportstadion logo" layout="responsive" height={100} width={100} />
+            <img src="/logos/mocklogo-7-white.svg" alt="Kampsportstadion logo" className="logoImage" />
           </div>
         </div>
         <div
@@ -112,12 +116,10 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
             />
           </div>
         </div>
-        <Image
+        <img
           src="/thaiboxer-ss2-sm.jpg"
           alt="Thai boxer"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
+          className="absolute inset-0 w-full h-full object-cover"
         />
         <div className={`absolute top-0 left-0 w-full h-full ${isExpanded ? 'bg-black bg-opacity-50 transition-opacity duration-500' : 'bg-black bg-opacity-100 transition-opacity duration-500'}`}></div>
       </div>

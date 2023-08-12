@@ -13,6 +13,7 @@ module.exports = {
         'h-720': {'raw': '(min-height: 720px)'},
         'h-740': {'raw': '(min-height: 740px)'},
         'h-950': {'raw': '(min-height: 950px)'},
+        'w-700': {'raw': '(min-width: 700px)'},
       },
       colors: {
         'custom-green-1': '#BED747',

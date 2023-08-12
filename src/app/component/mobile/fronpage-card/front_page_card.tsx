@@ -4,17 +4,6 @@ import ButtonLarge from '../button_large/button_large'
 import React from 'react';
 import './frontpagecard.module.css'
 
-
-const kaushan_script = localFont({
-  src: '../../../KaushanScript-Regular.ttf',
-  display: 'swap',
-})
-
-const julee = localFont({
-  src: '../../../julee.regular.ttf',
-  display: 'swap',
-})
-
 interface FrontPageCardProps {
   isExpanded: boolean;
   onExpandChange: (expanded: boolean) => void;
@@ -37,7 +26,7 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
         }}
       >
         <h2
-          className={`${julee.className} z-10 mt-10 text-7xl text-custom-green-1`}
+          className={`z-10 mt-10 text-7xl font-bold text-custom-green-1`}
           style={{
             opacity: isExpanded ? 1 : 0,
             transition: 'opacity 0.5s',
@@ -95,7 +84,7 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
             opacity: isExpanded ? 1 : 0,
             transition: 'opacity 0.5s',
           }}>
-          <p className={`${julee.className} text-white z-10 mt-30 text-2xl pr-20 font-medium`}>
+          <p className={` text-white z-10 mt-30 text-3xl pr-20 font-bold`}>
             SVENSKA MÄSTERSKAPET I THAIBOXNING <span className='text-custom-green-1'>+ </span>
             LIVE DJ <span className='text-custom-green-1'>+ </span> UTSTÄLLARE <span className='text-custom-green-1'>+ </span> ERBJUDANDEN
           </p>

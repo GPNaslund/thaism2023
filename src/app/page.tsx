@@ -47,7 +47,7 @@ export default function Home() {
         <DesktopNavBar />
         <div className="w-full h-[800px] relative">
           <div className="h-full flex flex-col z-10 justify-center items-center text-center">
-            <h2 className={`z-10 text-[130px] gradient-text w-full`}>
+            <h2 className={`z-10 text-[130px] gradient-text w-full font-bold`}>
               SM 2023
             </h2>
             <h2 className="text-white z-10 text-5xl font-medium -mt-8">

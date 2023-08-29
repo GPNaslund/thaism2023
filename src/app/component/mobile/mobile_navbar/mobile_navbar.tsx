@@ -30,12 +30,12 @@ const MobileNavbar: React.FC<NavBarProps> = ({ isCardExpanded, onExpandChange })
               }`}
           />
         </div>
-        <img 
+        {/* <img 
             src="/email-icon.svg"
             alt="Email icon"
             width="35"
             height="35"
-        />
+        /> */}
       </div>
       <div className="col-start-4 col-span-3 justify-self-end">
         <ButtonSmall

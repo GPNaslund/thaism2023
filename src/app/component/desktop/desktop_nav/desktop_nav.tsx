@@ -22,11 +22,11 @@ const DesktopNavBar: React.FC = () => {
         />
       </div>
       <div className="ml-auto">
-        <img
+        {/* <img
           src="/email-icon.svg"
           alt="Email icon"
           className="w-12 h-12 xl:w-75 xl:h-75"
-        />
+        /> */}
       </div>
       <a href="https://www.tickster.com/sv/events/ubjm4z2ugvumcll" className="rounded-full bg-black text-lime-100 py-2 px-12 z-10 text-lg xl:text-2xl font-medium w-22 xl:w-42 text-center mr-5">
         KÖP BILJETT

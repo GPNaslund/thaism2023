@@ -95,7 +95,7 @@ export default function Home() {
                 events='Finaler + Live DJ + Artist'
               />
             </div>
-            <div className="text-xl lg:text-2xl xl:text-3xl xl:ml-16 mr-14 mt-10">
+            <div className="text-2xl lg:text-2xl xl:text-3xl xl:ml-16 lg:mr-14 mt-10">
               <a href="https://www.haninge.se/uppleva-och-gora/idrott/idrottsanlaggningar/torvalla-sporthallar/">Torvalla Sportcentrum</a>
               <p>Dalarövägen 66, 136 45 Handen</p>
             </div>

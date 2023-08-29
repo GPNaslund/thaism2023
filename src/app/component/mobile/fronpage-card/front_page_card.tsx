@@ -22,7 +22,7 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
       <div
         className={`absolute bottom-0 left-0 right-0 top-7 flex flex-col items-center min-h-screen p-6 rounded-tl-3xl rounded-tr-3xl bg-gray-300 shadow-2xl overflow-hidden transition-transform duration-500`}
         style={{
-          transform: isExpanded ? 'translateY(0%)' : 'translateY(60%)',
+          transform: isExpanded ? 'translateY(0%)' : 'translateY(65%)',
         }}
       >
         <h2

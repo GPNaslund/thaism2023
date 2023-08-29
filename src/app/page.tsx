@@ -23,28 +23,22 @@ export default function Home() {
             <MobileDayInfo
               day='Torsdag 7/9'
               time='16.00 Matchstart'
-              events={['+ Kvalifikationsmatcher', 'Pris 170:-']}
+              price='Pris 170:- (Köps i dörren)'
+              events='Kvalifikationsmatcher'
             />
             <MobileDayInfo
               day='Fredag 8/9'
               time='16.00 Matchstart'
-              events={['+ Kvalifikationsmatcher', 'Pris 170:-']}
+              price='Pris 170:- (Köps i dörren)'
+              events='Kvalifikationsmatcher'
             />
             <MobileDayInfo
               day='Lördag 9/9'
               time='18.00 Matchstart'
-              events={['+ Finaler', '+ Live DJ', '+ Artist']}
+              price='Pris 249:- läktare / 349:- parkett'
+              events='Finaler + Live DJ + Artist'
             />
-            <div className="mt-3">
-              <MobileDayInfo 
-                day=""
-                time=""
-                events={["Biljettpris", "249:- / 349:-"]}
-              />
-            </div>
-            <div>
-              <a className="sm:mt-5 mt-2 text-sm" href="https://www.tickster.com/sv/events/ubjm4z2ugvumcll/2023-09-09/sm-final-thaiboxning-2023">Köp biljett</a>
-              <br></br>
+            <div className='mt-5'>
               <a className="sm:mt-5 mt-2 text-sm" href="https://www.haninge.se/uppleva-och-gora/idrott/idrottsanlaggningar/torvalla-sporthallar/">Torvalla Sportcentrum</a>
               <p className="text-sm">Dalarövägen 66, 136 45 Handen</p>
             </div>
@@ -80,29 +74,28 @@ export default function Home() {
         </div>
         <div className="w-full h-[1000px] xl:h-[800px]">
           <div className="flex w-full h-full flex-col justify-center items-center text-center gap-16">
-            <div className="flex flex-col xl:flex-row justify-center">
+            <div className="grid grid-cols-1 xl:grid-cols-3 justify-center">
               <DesktopDayInfo
                 day='TORSDAG 7/9'
                 time='16.00 - Matchstart'
-                events={['Kvalifikationsmatcher', 'Pris 170:-']}
+                price='Pris 170:- (Köps i dörren)'
+                events='Kvalifikationsmatcher'
               />
               <DesktopDayInfo
                 day='FREDAG 8/9'
                 time='16.00 - Matchstart'
-                events={['Kvalifikationsmatcher', 'Pris 170:-']}
+                price='Pris 170:- (Köps i dörren)'
+                events='Kvalifikationsmatcher'
                 borders={true}
               />
               <DesktopDayInfo
                 day='LÖRDAG 9/9'
+                price='Pris 249:- läktare / 349:- parkett'
                 time='18.00 - Matchstart'
-                events={['Finaler', 'Live DJ', 'Artist']}
+                events='Finaler + Live DJ + Artist'
               />
             </div>
-            <div className="lg:text-2xl xl:text-3xl xl:ml-16">
-              <p>Biljettpris 249:- / 349:-</p>
-              <br></br>
-              <a href="https://www.tickster.com/sv/events/ubjm4z2ugvumcll/2023-09-09/sm-final-thaiboxning-2023">Köp biljett</a>
-              <br></br>
+            <div className="text-xl lg:text-2xl xl:text-3xl xl:ml-16 mr-14 mt-10">
               <a href="https://www.haninge.se/uppleva-och-gora/idrott/idrottsanlaggningar/torvalla-sporthallar/">Torvalla Sportcentrum</a>
               <p>Dalarövägen 66, 136 45 Handen</p>
             </div>

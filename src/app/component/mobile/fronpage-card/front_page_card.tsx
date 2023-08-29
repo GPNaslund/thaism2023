@@ -44,39 +44,28 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
           THAIBOXNING
         </h2>
         <div
-          className={`w-full z-10 -mt-40 grid grid-cols-4 gap-1 justify-items-center justify-center`}
+          className={`w-full z-10 -mt-40 grid grid-cols-4 gap-3 items-center justify-center`}
           style={{ opacity: isExpanded ? 0 : 1, transition: 'opacity 0.5s' }}
         >
           <div className="w-full max-w-[50px]">
-            <img src="/federation-logo.svg" alt="Kampsportstadion logo" className="logoImage" />
+            <img src="/logos/federation-logo.png" alt="Svenska thaiboxningsförbundets logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <img src="/southside-white-logo.svg" alt="Southside logo" className="logoImage" />
+            <img src="/logos/southside-white-logo.svg" alt="Southside muay thai logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <img src="/ks-logo.svg" alt="Swedish thaiboxing federation logo" className="logoImage" />
-          </div>
-          <div className="w-full max-w-[50px]">
-            <img src="/logos/mocklogo-1-white.svg" alt="Kampsportstadion logo" className="logoImage" />
+            <img src="/logos/ks-logo.svg" alt="Kampsportstadion logo" className="logoImage" />
           </div>
           <div className="w-full max-w-[100px]">
-            <img src="/logos/mocklogo-2-white.svg" alt="Southside logo" className="logoImage" />
+            <img src="/logos/rr-logo.svg" alt="Recovery room logo" className="logoImage" />
           </div>
-          <div className="w-full max-w-[100px]">
-            <img src="/logos/mocklogo-3-white.svg" alt="Swedish thaiboxing federation logo" className="logoImage" />
+          <div className="w-full max-w-[200px]">
+            <img src="/logos/pic-logo.svg" alt="Proaktiv idrottscenter logo" className="logoImage" />
           </div>
-          <div className="w-full max-w-[100px]">
-            <img src="/logos/mocklogo-4-white.svg" alt="Kampsportstadion logo" className="logoImage" />
+          <div className="w-full max-w-[65px]">
+            <img src="/logos/toro-logo.png" alt="Torö logo" className="logoImage" />
           </div>
-          <div className="w-full max-w-[100px]">
-            <img src="/logos/mocklogo-5-white.svg" alt="Southside logo" className="logoImage" />
-          </div>
-          <div className="w-full max-w-[100px]">
-            <img src="/logos/mocklogo-6-white.svg" alt="Swedish thaiboxing federation logo" className="logoImage" />
-          </div>
-          <div className="w-full max-w-[100px]">
-            <img src="/logos/mocklogo-7-white.svg" alt="Kampsportstadion logo" className="logoImage" />
-          </div>
+         
         </div>
         <div
           className="z-10"
@@ -84,15 +73,15 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
             opacity: isExpanded ? 1 : 0,
             transition: 'opacity 0.5s',
           }}>
-          <p className={` text-white z-10 mt-30 text-3xl pr-20 font-bold`}>
+          <p className={` text-white z-10 mt-32 text-3xl pr-20 font-bold`}>
             SVENSKA MÄSTERSKAPET I THAIBOXNING <span className='text-custom-green-1'>+ </span>
-            LIVE DJ <span className='text-custom-green-1'>+ </span> UTSTÄLLARE <span className='text-custom-green-1'>+ </span> ERBJUDANDEN
+            LIVE DJ <span className='text-custom-green-1'> + </span> ARTIST
           </p>
           <p className="z-10 text-gray-200 mt-5 text-sm pr-24 font-medium">
             TORSDAG 7/9 - LÖRDAG 9/9<br></br>
             TORVALLA SPORTCENRUM
           </p>
-          <div className={`grid grid-cols-2 w-full mt-12 h-720:mt-32 justify-items-center`}>
+          <div className={`grid grid-cols-2 w-full mt-12 h-720:mt-28 justify-items-center`}>
             <ButtonLarge
               onClick={() => {
                 handleExpandChange(false);
@@ -100,7 +89,7 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
               text="LÄS MER"
             />
             <ButtonLarge
-              href="www.google.se"
+              href="https://www.tickster.com/sv/events/ubjm4z2ugvumcll"
               text="KÖP BILJETT"
             />
           </div>

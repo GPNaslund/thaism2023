@@ -22,22 +22,31 @@ export default function Home() {
           <div className={`w-3/4 mt-0 h-740:mt-6 pl-5`}>
             <MobileDayInfo
               day='Torsdag 7/9'
-              time='15.00 - 20.00'
-              events={['+ Kvalifikationsmatcher', '+ Utställare']}
+              time='16.00 Matchstart'
+              events={['+ Kvalifikationsmatcher', 'Pris 170:-']}
             />
             <MobileDayInfo
               day='Fredag 8/9'
-              time='15.00 - 20.00'
-              events={['+ Kvalifikationsmatcher', '+ Utställare']}
+              time='16.00 Matchstart'
+              events={['+ Kvalifikationsmatcher', 'Pris 170:-']}
             />
             <MobileDayInfo
               day='Lördag 9/9'
-              time='15.00 - 22.00'
-              events={['+ Finaler', '+ Live DJ', '+ Utställare']}
+              time='18.00 Matchstart'
+              events={['+ Finaler', '+ Live DJ', '+ Artist']}
             />
+            <div className="mt-3">
+              <MobileDayInfo 
+                day=""
+                time=""
+                events={["Biljettpris", "249:- / 349:-"]}
+              />
+            </div>
             <div>
-              <p className="sm:mt-5 mt-2 text-sm">Torvalla Sportcentrum</p>
-              <p className="text-sm">Torvallavägen, 136 46 Handen</p>
+              <a className="sm:mt-5 mt-2 text-sm" href="https://www.tickster.com/sv/events/ubjm4z2ugvumcll/2023-09-09/sm-final-thaiboxning-2023">Köp biljett</a>
+              <br></br>
+              <a className="sm:mt-5 mt-2 text-sm" href="https://www.haninge.se/uppleva-och-gora/idrott/idrottsanlaggningar/torvalla-sporthallar/">Torvalla Sportcentrum</a>
+              <p className="text-sm">Dalarövägen 66, 136 45 Handen</p>
             </div>
           </div>
         </div>
@@ -55,7 +64,7 @@ export default function Home() {
             </h2>
             <p className={` text-white z-10 mt-30 text-5xl w-2/3 xl:w-1/3 font-medium mt-12`}>
               SVENSKA MÄSTERSKAPET I THAIBOXNING <span className='text-custom-green-1'>+ </span>
-              LIVE DJ <span className='text-custom-green-1'>+ </span> UTSTÄLLARE <span className='text-custom-green-1'>+ </span> ERBJUDANDEN.
+              LIVE DJ <span className='text-custom-green-1'>+ </span> ARTIST
             </p>
             <p className="z-10 text-gray-200 mt-20 text-2xl px-42 xl:px-72 font-medium">
               TORSDAG 7/9 - LÖRDAG 9/9
@@ -74,76 +83,60 @@ export default function Home() {
             <div className="flex flex-col xl:flex-row justify-center">
               <DesktopDayInfo
                 day='TORSDAG 7/9'
-                time='15.00 - 20.00'
-                events={['Kvalifikationsmatcher', 'Utställare']}
+                time='16.00 - Matchstart'
+                events={['Kvalifikationsmatcher', 'Pris 170:-']}
               />
               <DesktopDayInfo
                 day='FREDAG 8/9'
-                time='15.00 - 20.00'
-                events={['Kvalifikationsmatcher', 'Utställare']}
+                time='16.00 - Matchstart'
+                events={['Kvalifikationsmatcher', 'Pris 170:-']}
                 borders={true}
               />
               <DesktopDayInfo
                 day='LÖRDAG 9/9'
-                time='15.00 - 22.00'
-                events={['Finaler', 'Live DJ', 'Utställare']}
+                time='18.00 - Matchstart'
+                events={['Finaler', 'Live DJ', 'Artist']}
               />
             </div>
             <div className="lg:text-2xl xl:text-3xl xl:ml-16">
-              <p>Torvalla Sportcentrum</p>
-              <p>Torvallavägen, 136 46 Handen</p>
+              <p>Biljettpris 249:- / 349:-</p>
+              <br></br>
+              <a href="https://www.tickster.com/sv/events/ubjm4z2ugvumcll/2023-09-09/sm-final-thaiboxning-2023">Köp biljett</a>
+              <br></br>
+              <a href="https://www.haninge.se/uppleva-och-gora/idrott/idrottsanlaggningar/torvalla-sporthallar/">Torvalla Sportcentrum</a>
+              <p>Dalarövägen 66, 136 45 Handen</p>
             </div>
           </div>
         </div>
         <div className="w-full h-[300px] bg-black rounded-tl-3xl rounded-tr-3xl grid grid-cols-5 justify-items-center items-center">
           <img
-            src="/federation-logo.svg"
+            src="/logos/federation-logo.png"
             alt="Kampsportstadion logo"
             className={styles.logoImage}
           />
           <img
-            src="/southside-white-logo.svg"
+            src="/logos/southside-white-logo.svg"
             alt="Southside logo"
             className={styles.logoMidImage}
           />
           <img
-            src="/ks-logo.svg"
+            src="/logos//ks-logo.svg"
             alt="Swedish thaiboxing federation logo"
             className={styles.logoMidImage}
           />
           <img
-            src="/logos/mocklogo-1-white.svg"
+            src="/logos/rr-logo.svg"
             alt="Kampsportstadion logo"
-            className={styles.logoImage}
+            className={styles.logoMidImage}
           />
           <img
-            src="/logos/mocklogo-2-white.svg"
+            src="/logos/pic-logo.svg"
             alt="Southside logo"
             className={styles.logoMidImage}
           />
           <img
-            src="/logos/mocklogo-3-white.svg"
+            src="/logos/toro-logo.png"
             alt="Swedish thaiboxing federation logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos/mocklogo-4-white.svg"
-            alt="Kampsportstadion logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos/mocklogo-5-white.svg"
-            alt="Southside logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos/mocklogo-6-white.svg"
-            alt="Swedish thaiboxing federation logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos/mocklogo-7-white.svg"
-            alt="Kampsportstadion logo"
             className={styles.logoMidImage}
           />
 

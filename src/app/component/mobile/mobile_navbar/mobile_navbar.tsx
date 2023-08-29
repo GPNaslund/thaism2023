@@ -40,7 +40,7 @@ const MobileNavbar: React.FC<NavBarProps> = ({ isCardExpanded, onExpandChange })
       <div className="col-start-4 col-span-3 justify-self-end">
         <ButtonSmall
           text="KÖP BILJETT"
-          href="nada"
+          href="https://www.tickster.com/sv/events/ubjm4z2ugvumcll"
         />
       </div>
     </nav>

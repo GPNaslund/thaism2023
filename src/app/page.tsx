@@ -102,37 +102,62 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full h-[300px] bg-black rounded-tl-3xl rounded-tr-3xl grid grid-cols-5 justify-items-center items-center">
-          <img
-            src="/logos/federation-logo.png"
-            alt="Kampsportstadion logo"
-            className={styles.logoImage}
-          />
-          <img
-            src="/logos/southside-white-logo.svg"
-            alt="Southside logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos//ks-logo.svg"
-            alt="Swedish thaiboxing federation logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos/rr-logo.svg"
-            alt="Kampsportstadion logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos/pic-logo.svg"
-            alt="Southside logo"
-            className={styles.logoMidImage}
-          />
-          <img
-            src="/logos/toro-logo.png"
-            alt="Swedish thaiboxing federation logo"
-            className={styles.logoMidImage}
-          />
-
+          <a href="https://www.muaythai.se/">
+            <img
+              src="/logos/federation-logo.png"
+              alt="Kampsportstadion logo"
+              className={styles.logoImage}
+            />
+          </a>
+            <a href="https://southsidearena.se/">
+            <img
+              src="/logos/southside-white-logo.svg"
+              alt="Southside arena logo"
+              className={styles.logoMidImage}
+            />
+          </a>
+          <a href="http://www.kampsportstadion.se/intro">
+            <img
+              src="/logos/ks-logo.svg"
+              alt="Kampsportstadion logo"
+              className={styles.logoMidImage}
+            />
+          </a>
+          <a href="https://www.recoveryroom.se/">
+            <img
+              src="/logos/rr-logo.svg"
+              alt="Recovery room logo"
+              className={styles.logoMidImage}
+            />
+          </a>
+          <a href="https://www.proaktividrottscenter.se/">
+            <img
+              src="/logos/pic-logo.svg"
+              alt="Proaktiv Idrottscenter logo"
+              className={styles.logoMidImage}
+            />
+          </a>
+          <a>
+            <img
+              src="/logos/toro-logo.png"
+              alt="Torö entreprenad logo"
+              className={styles.logoMidImage}
+            />
+          </a>
+          <a href="https://kaftsmallspodden.se/">
+            <img
+              src="/logos/ksmall-logo.png"
+              alt="Käftsmällspodden logo"
+              className={styles.logoMidImage}
+            />
+          </a>
+          <a href="https://www.bkfastighetsservice.se/">
+            <img
+              src="/logos/bk-c-fast-logo.png"
+              alt="BK Fastighetsservice logo"
+              className={styles.logoMidImage}
+            />
+          </a>
         </div>
         <style>
           {`

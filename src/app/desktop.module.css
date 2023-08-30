@@ -11,9 +11,9 @@
 }
 
 .logoImage {
-  width: 100px;  /* or the width you desire */
-  height: 100px; /* or the height you desire */
-  object-fit: contain; /* this will prevent the image from being distorted */
+  width: 100px;
+  height: 100px; 
+  object-fit: contain; 
 }
 
 .logoLargeImage {
@@ -26,4 +26,17 @@
   width: 125px;
   height: 125px;
   object-fit: contain;
+}
+
+.logoXLargeImage {
+  width: 175px;  
+  height: 175px; 
+  object-fit: contain; 
+}
+
+
+.logoXXLargeImage {
+  width: 200px;  
+  height: 200px; 
+  object-fit: contain; 
 }

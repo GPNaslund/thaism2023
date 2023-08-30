@@ -48,22 +48,28 @@ const FrontPageCard: React.FC<FrontPageCardProps> = ({ isExpanded, onExpandChang
           style={{ opacity: isExpanded ? 0 : 1, transition: 'opacity 0.5s' }}
         >
           <div className="w-full max-w-[50px]">
-            <img src="/logos/federation-logo.png" alt="Svenska thaiboxningsförbundets logo" className="logoImage" />
+            <a href="https://www.muaythai.se/"><img src="/logos/federation-logo.png" alt="Svenska thaiboxningsförbundets logo" className="logoImage" /></a>
           </div>
           <div className="w-full max-w-[100px]">
-            <img src="/logos/southside-white-logo.svg" alt="Southside muay thai logo" className="logoImage" />
+            <a href="https://southsidearena.se/"><img src="/logos/southside-white-logo.svg" alt="Southside muay thai logo" className="logoImage" /></a>
           </div>
           <div className="w-full max-w-[100px]">
-            <img src="/logos/ks-logo.svg" alt="Kampsportstadion logo" className="logoImage" />
+            <a href="http://www.kampsportstadion.se/intro"><img src="/logos/ks-logo.svg" alt="Kampsportstadion logo" className="logoImage" /></a>
           </div>
           <div className="w-full max-w-[100px]">
-            <img src="/logos/rr-logo.svg" alt="Recovery room logo" className="logoImage" />
+            <a href="https://www.recoveryroom.se/"><img src="/logos/rr-logo.svg" alt="Recovery room logo" className="logoImage" /></a>
           </div>
           <div className="w-full max-w-[200px]">
-            <img src="/logos/pic-logo.svg" alt="Proaktiv idrottscenter logo" className="logoImage" />
+            <a href="https://www.proaktividrottscenter.se/"><img src="/logos/pic-logo.svg" alt="Proaktiv idrottscenter logo" className="logoImage" /></a>
           </div>
           <div className="w-full max-w-[65px]">
             <img src="/logos/toro-logo.png" alt="Torö logo" className="logoImage" />
+          </div>
+          <div className="w-full max-w-[65px]">
+            <a href="https://kaftsmallspodden.se/"><img src="/logos/ksmall-logo.png" alt="Käftsmällspodden logo" className="logoImage" /></a>
+          </div>
+          <div className="w-full max-w-[65px]">
+            <a href="https://www.bkfastighetsservice.se/"><img src="/logos/bk-c-fast-logo.png" alt="BK Fastighetsservice logo" className="logoImage" /></a>
           </div>
          
         </div>
